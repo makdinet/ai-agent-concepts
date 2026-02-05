@@ -4,7 +4,7 @@ Welcome to my corner of the internet where we talk about AI agents without putti
 
 Want to know when I drop new content? Join the WhatsApp group here: [Link](https://chat.whatsapp.com/DleCJqi9JJ4A5i38O2vbUl?mode=gi_t) 📢 (I promise, no spam. Just nerdy goodness.)
 
-### About Your Humble Guide 👨‍💻
+## About Your Humble Guide 👨‍💻
 
 Hi! I'm a software engineer with 10 years under my belt. For most of that time, I was living the CRUD life—create, read, update, delete, repeat. You know the drill: build form, connect to database, add validation, deploy, feel empty inside. After my 10,000th "user management system", I started experiencing what I call "developer fatigue" (it's like regular fatigue, but with more existential dread about your career choices 😅).
 
@@ -16,13 +16,13 @@ And I get it! We're trying to apply our trusty old software development brain to
 
 Here's the truth: AI agent architecture requires a **paradigm shift** in how we think about software. It's not just "add AI to existing patterns and call it a day." It's a whole new discipline with its own patterns, principles, and peculiarities. 🧠⚙️ And honestly? That's what makes it exciting! 🏗️
 
-### The Plot Twist: Software Engineers Are Now the Main Characters 🎬
+## The Plot Twist: Software Engineers Are Now the Main Characters 🎬
 
 Before ChatGPT crashed the party in November 2022, AI development was the domain of data scientists and research PhDs. Fast forward to 2025, and guess what? **Building AI systems is now more of an engineering challenge than a science experiment.** 
 
 A solid software engineer—someone who understands systems, tools, and architecture—can now build incredibly powerful intelligent systems just by designing the right software wrapper around language models. 🤖💡 Wild, right?
 
-### The Big Shift: You're Not Just Building for Humans Anymore
+## The Big Shift: You're Not Just Building for Humans Anymore
 
 Traditionally, we software engineers design everything with the human user in mind. Click here, type there, see results, everyone's happy. 👤
 
@@ -59,7 +59,7 @@ See what happened? The AI isn't just generating text—it's **actively using you
 - **Well-formatted data** it can parse and reason about
 - **Permissions and guardrails** so it doesn't accidentally delete your production database 😅
 
-#### Why This Changes Everything 🎯
+### Why This Changes Everything 🎯
 
 **Traditional software design:**
 ```
@@ -99,7 +99,7 @@ I had to redesign the error response to be more structured and descriptive:
 
 Now the AI could actually make intelligent decisions based on the error! 🎉
 
-#### The Mind-Bending Part 🤯
+### The Mind-Bending Part 🤯
 
 The AI isn't just a feature you bolt onto your app. **The AI is a user of your systems.** 
 
@@ -115,7 +115,7 @@ This shift in thinking—from "AI as a feature" to "AI as a user"—is what sepa
 
 Mind = blown yet? 🤯
 
-### What You'll Find Here 📚
+## What You'll Find Here 📚
 
 My mission with this documentation is simple: **demystify the core architectural ideas behind AI agent development.** 
 
