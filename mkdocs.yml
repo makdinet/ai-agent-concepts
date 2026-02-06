@@ -14,4 +14,5 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - 👋 Introduction: index.md
+  - 👨🏼‍💻 Basics of Prompt Writing: prompt_writing.md
