@@ -246,6 +246,7 @@ Here's the complete example using our retail financial analysis scenario:
 Writing great prompts isn't rocket science 🚀, but it *is* a skill. And like any skill, you get better with practice. 💪
 
 Remember the five ingredients:
+
 1. **Role and Persona** - Who's doing the work?
 2. **Context** - What's the situation?
 3. **Task Instructions** - What exactly needs to be done?
