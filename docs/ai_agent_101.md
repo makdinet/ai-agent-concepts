@@ -1,6 +1,6 @@
 # AI Agent 101: Let's Talk About Robots 🤖
 
-So, you've heard people throwing around the term "AI agent" like confetti at a parade, right? 🎉 Some folks call the language model itself an agent. Others call anything with an API wrapper an agent. But here's what an AI agent actually is: **it's a software program that uses a language model plus tools to make decisions and take actions (like searching the web, managing files, or calling APIs) to achieve goals based on your instructions**.
+So, you've heard people throwing around the term "AI agent" everywhere, right? 🎉 Some folks call the language model itself an agent. Others call anything with an API wrapper an agent. But here's what an AI agent actually is: **it's a software program that uses a language model plus tools to make decisions and take actions (like searching the web, managing files, or calling APIs) to achieve goals based on your instructions**.
 
 Think of it this way: 
 - The **language model** is like the brain 🧠 — it thinks and makes decisions
