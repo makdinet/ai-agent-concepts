@@ -2,7 +2,7 @@
 
 Welcome to my corner of the internet where we talk about AI agents without putting you to sleep! This is a living, breathing collection of articles where I break down one concept at a time—think of it as "AI agent architecture for humans who still enjoy having fun". Each piece is written in a conversational, blog-style format because life's too short for dry technical writing, am I right? 🚀
 
-Want to know when I drop new content? **Join the [WhatsApp group](https://chat.whatsapp.com/DleCJqi9JJ4A5i38O2vbUl?mode=gi_t) 📢 (I promise, no spam. Just nerdy goodness.)
+Want to know when I drop new content? **[Join the WhatsApp group](https://chat.whatsapp.com/DleCJqi9JJ4A5i38O2vbUl?mode=gi_t)** 📢 (I promise, no spam. Just nerdy goodness.)
 
 ## About Your Humble Guide 👨‍💻
 

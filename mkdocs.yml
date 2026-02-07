@@ -16,3 +16,7 @@ theme:
 nav:
   - 👋 Introduction: index.md
   - 👨🏼‍💻 Basics of Prompt Writing: prompt_writing.md
+  - 🎓 AI Agent 101: ai_agent_101.md
+  - 🛠️ Agent Harness: ai_agent_harness.md
+  - 📚 Context Engineering: context_engineering.md
+  - 💾 Memory Management: memory_management.md

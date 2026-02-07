@@ -123,8 +123,8 @@ But here's the thing: you need to give your AI access to the right tools, and so
 **Example for our financial analysis scenario:**
 
 > *"Feel free to use whatever tools you need:*
-> - *Web search - Go find the latest retail trends and any juicy news about our competitors*
-> - *Google Drive - Grab those files I mentioned and save your masterpiece analysis there when you're done*
+> *(1) Web search - Go find the latest retail trends and any juicy news about our competitors*;
+> *(2) Google Drive - Grab those files I mentioned and save your masterpiece analysis there when you're done*
 
 **Why this matters:** Without tools, your AI is like a chef with no ingredients. 👨‍🍳❌🥕 Sure, they know 500 recipes, but they can't actually cook you dinner. With tools, they can grab what they need and get to work. ✅
 
@@ -214,8 +214,8 @@ Here's the complete example using our retail financial analysis scenario:
 
 **Action Tools:**
 > *Feel free to use whatever tools you need:*
-> - *Web search: Find latest retail trends and competitor news*
-> - *Google Drive: Access the files and save your final report*
+> *(1) Web search: Find latest retail trends and competitor news*;
+> *(2) Google Drive: Access the files and save your final report*
 
 **Output Format:**
 > *Deliver this analysis like a boss:*
