@@ -632,7 +632,7 @@
 
 
 <h1 id="ai-agent-101-lets-talk-about-robots">AI Agent 101: Let's Talk About Robots 🤖</h1>
-<p>So, you've heard people throwing around the term "AI agent" for just about anything, right? 🎉 Some folks call the language model itself an agent. Others call anything with an API wrapper an agent. But here's what an AI agent actually is: <strong>it's a software program that uses a language model plus tools to make decisions and take actions (like searching the web, managing files, or calling APIs) to achieve goals based on your instructions</strong>.</p>
+<p>So, you've heard people throwing around the term "AI agent" for just about anything, right? 🎉 Some folks call the language model itself an agent. Others call anything with a model API wrapper an agent. But here's what an AI agent actually is: <strong>it's a software program that uses a language model plus tools to make decisions and take actions (like searching the web, managing files, or calling external APIs) to achieve goals based on your instructions</strong>.</p>
 <p>Think of it this way: </p>
 <ul>
 <li>The <strong>language model</strong> is like the brain 🧠 — it thinks and makes decisions</li>
@@ -691,8 +691,7 @@ def get_total_area(city: str):
     ]
 }
 </code></pre>
-<p>Each tool definition gets mapped to its corresponding code function in the agent's software program. It's like having a menu of options for the model to choose from! 📋</p>
-<p>When the model receives this prompt, it thinks (well, "predicts") and decides, "Aha! I should call <code>get_temperature</code>!" and spits out something like this:</p>
+<p>Each tool definition gets mapped to its corresponding code function in the agent's software program. When the model receives this input, it thinks (well, "predicts") and decides, "Aha! I should call <code>get_temperature</code>!" and spits out something like this:</p>
 <pre><code>Model output: {
     &quot;messages&quot;: [
         {
@@ -805,6 +804,7 @@ def get_total_area(city: str):
 <p>And that, my friend, is how the magic happens! ✨</p>
 <hr />
 <p><em>PS - Now go forth and build some agents! And remember: with great AI power comes great responsibility.  Happy coding!</em> 🎉🚀</p>
+<p><em>Join the WhatsApp <a href="https://chat.whatsapp.com/DleCJqi9JJ4A5i38O2vbUl?mode=gi_t">group</a> and <a href="https://whatsapp.com/channel/0029VbCa2R0EAKWCLAfPrz04">channel</a> for updates and discussions.</em></p>
 
 
 
