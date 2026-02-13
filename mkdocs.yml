@@ -2,16 +2,27 @@ site_name: AI Agent Concepts
 
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      # primary: green
+      # accent: light green
 
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      # primary: green
+      # accent: light green
+
+# extra_css:
+#   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
+  - 👋 Introduction: index.md
+  - ✍️ Basics of Prompt Writing: prompt_writing.md
+  - 🎓 AI Agent 101: ai_agent_101.md
+  - 🛠️ Agent Harness: ai_agent_harness.md
+  - 📚 Context Engineering: context_engineering.md
+  - 💾 Memory Management: memory_management.md
+  - 👨🏼‍💻 Human-In-the-Loop: human_in_the_loop.md
+  
