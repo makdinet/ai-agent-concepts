@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../ai_agent_101/">
+        <link rel="prev" href="../ai_agent_harness/">
       
       
-        <link rel="next" href="../ai_agent_eval/">
+        <link rel="next" href="../context_engineering/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>🛠️ Agent Harness - AI Agent Concepts</title>
+        <title>🧐 AI Agent Eval - AI Agent Concepts</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agent-harness-understanding-the-architecture-behind-ai-agents" class="md-skip">
+        <a href="#what-is-eval-in-ai-agent" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🛠️ Agent Harness
+              🧐 AI Agent Eval
             
           </span>
         </div>
@@ -302,6 +302,33 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai_agent_harness/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🛠️ Agent Harness
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -321,7 +348,7 @@
   <span class="md-ellipsis">
     
   
-    🛠️ Agent Harness
+    🧐 AI Agent Eval
   
 
     
@@ -339,7 +366,7 @@
   <span class="md-ellipsis">
     
   
-    🛠️ Agent Harness
+    🧐 AI Agent Eval
   
 
     
@@ -365,22 +392,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#building-blocks-of-agent-architecture" class="md-nav__link">
+  <a href="#lets-start-with-something-you-already-know-integration-tests" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Building Blocks of Agent Architecture ⚡
+        Let's Start With Something You Already Know: Integration Tests 🧪
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Building Blocks of Agent Architecture ⚡">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now-enter-the-ai-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Now Enter: The AI Agent 🌪️
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-agent-eval-is-different-from-integration-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Agent Eval is Different from Integration Tests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-approaches-to-implementing-agent-eval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Approaches to Implementing Agent Eval
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Approaches to Implementing Agent Eval">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-text-summarization" class="md-nav__link">
+  <a href="#1-task-success-rate-the-scoreboard" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1: Text Summarization 📝
+        1. 🎯 Task Success Rate (The Scoreboard)
       
     </span>
   </a>
@@ -388,10 +448,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-retrieval-augmented-generation-rag" class="md-nav__link">
+  <a href="#2-trajectory-evaluation-the-journey-not-just-the-destination" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2: Retrieval-Augmented Generation (RAG) 🔍
+        2. 🕵️ Trajectory Evaluation (The Journey, Not Just the Destination)
       
     </span>
   </a>
@@ -399,10 +459,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-reasoning-think-step-by-step" class="md-nav__link">
+  <a href="#3-llm-as-judge-using-ai-to-grade-ai" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3: Reasoning — Think Step-by-Step 🧠
+        3. 🤖 LLM-as-Judge (Using AI to Grade AI)
       
     </span>
   </a>
@@ -410,10 +470,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-tool-use-autonomous-action" class="md-nav__link">
+  <a href="#4-human-evaluation-the-gold-standard" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4: Tool Use &amp; Autonomous Action 🚀
+        4. 🧑‍⚖️ Human Evaluation (The Gold Standard)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-simulation-sandbox-environments-the-practice-ground" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 🌐 Simulation / Sandbox Environments (The Practice Ground)
       
     </span>
   </a>
@@ -426,10 +497,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-the-building-blocks-come-together" class="md-nav__link">
+  <a href="#putting-it-all-together" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How the Building Blocks Come Together 🪄
+        Putting It All Together
       
     </span>
   </a>
@@ -440,7 +511,7 @@
   <a href="#the-bottom-line" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The Bottom Line 🎬
+        The Bottom Line
       
     </span>
   </a>
@@ -451,33 +522,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ai_agent_eval/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    🧐 AI Agent Eval
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -590,22 +634,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#building-blocks-of-agent-architecture" class="md-nav__link">
+  <a href="#lets-start-with-something-you-already-know-integration-tests" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Building Blocks of Agent Architecture ⚡
+        Let's Start With Something You Already Know: Integration Tests 🧪
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Building Blocks of Agent Architecture ⚡">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now-enter-the-ai-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Now Enter: The AI Agent 🌪️
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-agent-eval-is-different-from-integration-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Agent Eval is Different from Integration Tests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-approaches-to-implementing-agent-eval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Approaches to Implementing Agent Eval
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Approaches to Implementing Agent Eval">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-text-summarization" class="md-nav__link">
+  <a href="#1-task-success-rate-the-scoreboard" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1: Text Summarization 📝
+        1. 🎯 Task Success Rate (The Scoreboard)
       
     </span>
   </a>
@@ -613,10 +690,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-retrieval-augmented-generation-rag" class="md-nav__link">
+  <a href="#2-trajectory-evaluation-the-journey-not-just-the-destination" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2: Retrieval-Augmented Generation (RAG) 🔍
+        2. 🕵️ Trajectory Evaluation (The Journey, Not Just the Destination)
       
     </span>
   </a>
@@ -624,10 +701,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-reasoning-think-step-by-step" class="md-nav__link">
+  <a href="#3-llm-as-judge-using-ai-to-grade-ai" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3: Reasoning — Think Step-by-Step 🧠
+        3. 🤖 LLM-as-Judge (Using AI to Grade AI)
       
     </span>
   </a>
@@ -635,10 +712,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-tool-use-autonomous-action" class="md-nav__link">
+  <a href="#4-human-evaluation-the-gold-standard" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4: Tool Use &amp; Autonomous Action 🚀
+        4. 🧑‍⚖️ Human Evaluation (The Gold Standard)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-simulation-sandbox-environments-the-practice-ground" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 🌐 Simulation / Sandbox Environments (The Practice Ground)
       
     </span>
   </a>
@@ -651,10 +739,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-the-building-blocks-come-together" class="md-nav__link">
+  <a href="#putting-it-all-together" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How the Building Blocks Come Together 🪄
+        Putting It All Together
       
     </span>
   </a>
@@ -665,7 +753,7 @@
   <a href="#the-bottom-line" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The Bottom Line 🎬
+        The Bottom Line
       
     </span>
   </a>
@@ -689,38 +777,118 @@
 
 
 
-<h1 id="agent-harness-understanding-the-architecture-behind-ai-agents">Agent Harness: Understanding the Architecture Behind AI Agents</h1>
-<p>Let's talk about what an "agent harness" actually means in the world of artificial intelligence.</p>
-<p>To understand this, let's start with the word <em>harness</em> itself. A harness is something that controls and directs energy toward a goal. It is not the energy source — it is the structure that makes the energy useful. A horse harness doesn't make the horse stronger; it makes the horse's strength purposeful.</p>
-<p>That exact philosophy applies to modern AI.</p>
-<p>An <strong>agent harness</strong> is the software architecture built around a GenAI model that organizes its building blocks — reasoning, knowledge retrieval, and tool use — into a coherent, goal-directed system. The model provides the intelligence, but the harness provides the structure: directing how the model plans tasks, accesses information, executes actions, and maintains context over time.</p>
-<p>Without a harness, you have raw intelligence with no direction. With one, you have a system that can understand a goal, reason through a plan, gather what it needs, and act — reliably and autonomously. That is what makes agent architecture so compelling. 💡</p>
+<h1 id="what-is-eval-in-ai-agent">What is Eval in AI Agent? 🤖</h1>
+<p>So you've built an AI agent. It can browse the web, write code, book your flight, and maybe even argue with your boss on your behalf. Very nice. Very fancy. 🎉</p>
+<p>But here's the real question — <strong>how do you know it actually works?</strong> Not just "it gave an output" works, but <em>properly</em>, <em>reliably</em>, <em>won't-embarrass-you-in-production</em> works?</p>
+<p>That, my friend, is where <strong>Agent Eval</strong> comes in.</p>
 <hr />
-<h2 id="building-blocks-of-agent-architecture">Building Blocks of Agent Architecture ⚡</h2>
-<p>To understand how AI agents work, it helps to first understand the key building blocks they are built upon — capabilities and techniques that evolved in the GenAI ecosystem and come together inside an agent architecture.</p>
-<h3 id="1-text-summarization">1: Text Summarization 📝</h3>
-<p>When conversational AI became widely accessible in late 2022, one of its most impressive demonstrations was <strong>text summarization</strong>. LLMs could read lengthy documents and produce concise summaries while preserving meaning and context — turning a 50-page report into five key points. This established a foundational capability: AI can compress large volumes of information without losing what matters. In an agent context, this becomes critical when an agent needs to distill retrieved documents, long conversation histories, or tool outputs before deciding on its next action.</p>
-<h3 id="2-retrieval-augmented-generation-rag">2: Retrieval-Augmented Generation (RAG) 🔍</h3>
-<p>LLMs are constrained by their training data — they only know what they were trained on. <strong>RAG</strong> addresses this by augmenting a LLM with an external knowledge retrieval system, enabling it to access fresh, domain-specific, or private data at runtime.</p>
-<p>RAG works in two steps: <em>retrieval</em> and <em>generation</em>. In the retrieval step, an embedding model converts the user's query into a vector-embedding, and semantically similar content is retrieved from a vector database where documents have been pre-indexed using the same embedding model. In the generation step, the retrieved content is injected into the model's context window alongside the original query, allowing it to generate a grounded, accurate response. This enables the system to access fresh, domain-specific, or private data at runtime — and significantly reduces hallucinations by anchoring responses in retrieved source material.</p>
-<h3 id="3-reasoning-think-step-by-step">3: Reasoning — Think Step-by-Step 🧠</h3>
-<p>The third building block is <strong>reasoning</strong> — specifically the ability to break down complex problems into intermediate steps before arriving at a final answer. Techniques like chain-of-thought prompting encourage the model to show its working, much like solving a math problem step by step rather than guessing the answer.</p>
-<p>This evolved into more sophisticated approaches like tree-of-thought reasoning, where the model explores multiple reasoning paths and selects the most promising one. These techniques dramatically improved performance on tasks requiring planning, logic, or multi-step thinking — such as debugging code, solving complex problems, and designing workflows. For agents, reasoning is the cognitive engine — the ability to plan, evaluate, and decide before taking action. ✨</p>
-<h3 id="4-tool-use-autonomous-action">4: Tool Use &amp; Autonomous Action 🚀</h3>
-<p>The fourth building block is <strong>tool use</strong> — and it represents the most significant shift. This is where an agent moves from thinking to <em>doing</em>. Rather than reasoning about a task in isolation, an agent can interact with external tools such as browsers, code interpreters, APIs, and databases — planning a sequence of actions, executing them step by step, and adapting based on results.</p>
-<p>This is the evolution from "knowing" to "doing" — from intelligence to agency. Instead of explaining how to analyze data, an agent writes the code, runs it, interprets the output, debugs issues, and produces a complete report — all autonomously. Tool use is what transforms a capable language model into an agent that can operate in and act upon the real world.</p>
+<h2 id="lets-start-with-something-you-already-know-integration-tests">Let's Start With Something You Already Know: Integration Tests 🧪</h2>
+<p>If you've done any software engineering, you've written integration tests. If you haven't — no worries, here's the idea:</p>
+<p>Imagine you've built an e-commerce website. You write a test that goes:</p>
+<blockquote>
+<p>"User clicks 'Add to Cart' → Item shows up in cart → User checks out → Order is placed → Email is sent."</p>
+</blockquote>
+<p>You run this test. It either passes ✅ or fails ❌. Simple. Clean. Beautiful.</p>
+<p>The system is <strong>deterministic</strong> — meaning if you give it the same input every time, you get the same output every time. Like how your maa's dal tadka always tastes the same. Consistent. Reliable. Comforting. 🍲</p>
+<p>And if the test fails, you know <em>exactly</em> where it broke. Step 3 failed? Checkout is broken. Fix checkout. Done. Back to chai. ☕</p>
+<p>This is the happy world of traditional software testing.</p>
 <hr />
-<h2 id="how-the-building-blocks-come-together">How the Building Blocks Come Together 🪄</h2>
-<p>Each building block on its own is powerful — but what makes an AI agent truly capable is how they are orchestrated together. This is the role of the <strong>agent harness</strong>: the coordination layer that connects and manages all four building blocks into a coherent, functioning system.</p>
-<p>The harness manages the continuous flow of data between components, maintains context across multi-step interactions, drives the planning and reasoning loops, and executes tool calls reliably. It also handles practical constraints — for example, summarizing conversation history to stay within the model's context window, or maintaining persistent memory so the agent can learn from previous steps within a task.</p>
-<p>Think of it this way: text summarization compresses information, RAG brings in the right knowledge, reasoning charts the path forward, and tool use takes action — but without the harness coordinating all of this, these pieces remain disconnected. The harness is what turns a collection of capabilities into a system that can actually get things done.</p>
+<h2 id="now-enter-the-ai-agent">Now Enter: The AI Agent 🌪️</h2>
+<p>An AI agent is not your average software component. It doesn't follow a fixed script. It <em>thinks</em> (well, sort of). It decides which tools to use, in what order, with what inputs. It might solve the same task in 10 completely different ways on 10 different runs.</p>
+<p>It's less like a vending machine (press B4, get chips) and more like hiring a new intern. Sometimes brilliant. Sometimes... creative in unexpected ways. 😅</p>
+<p>So when we ask "how do we test an AI agent?", we can't just write <code>assertEqual(agent_output, "correct_answer")</code> and call it a day.</p>
+<p>This is where <strong>Agent Eval</strong> comes in — it's like integration testing, but for systems that can improvise. And your test assertions have to account for that improvisation.</p>
 <hr />
-<h2 id="the-bottom-line">The Bottom Line 🎬</h2>
-<p>Highly capable AI agents — those conducting autonomous research, writing complex code, or managing intricate workflows — are not powerful because of any single building block. They are powerful because of how well these blocks are composed and orchestrated.</p>
-<p>The model's raw intelligence is essential, but it is only one part of the equation. RAG gives it knowledge, reasoning gives it judgment, tool use gives it action, and the harness gives it coordination. Together, they transform a language model into a system capable of tackling real-world challenges and delivering genuine value.</p>
-<p>That is what agent architecture is really about — not just intelligence, but intelligence that is organized, grounded, and empowered to act. ✨</p>
+<h2 id="how-agent-eval-is-different-from-integration-tests">How Agent Eval is Different from Integration Tests</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Integration Test</th>
+<th>Agent Eval</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Output</td>
+<td>Fixed, deterministic</td>
+<td>Variable, probabilistic</td>
+</tr>
+<tr>
+<td>Pass/Fail</td>
+<td>Binary</td>
+<td>Rate-based (e.g., passes 80% of runs)</td>
+</tr>
+<tr>
+<td>Failure diagnosis</td>
+<td>Pinpoint exact line</td>
+<td>Must trace long reasoning chains</td>
+</tr>
+<tr>
+<td>Who judges?</td>
+<td><code>assert</code> statement</td>
+<td>Human, another LLM, or heuristics</td>
+</tr>
+<tr>
+<td>Flakiness</td>
+<td>Bug! Fix it!</td>
+<td>Expected. Manage it.</td>
+</tr>
+</tbody>
+</table>
+<p>Think of it this way: integration testing is like checking if a train arrived on time. Agent eval is like grading a student's essay. The train either arrived or it didn't. The essay? That needs <em>judgment</em>. 📝</p>
 <hr />
-<p><em>PS — Don't just use AI. Build with it. The advantage won't go to those who ask the best questions, but to those who architect systems that act, learn, and deliver — autonomously.</em> ⚙️🧠🚀</p>
+<h2 id="common-approaches-to-implementing-agent-eval">Common Approaches to Implementing Agent Eval</h2>
+<p>Okay, now the good stuff. Here are the main ways engineers actually do agent eval in practice — with examples.</p>
+<hr />
+<h3 id="1-task-success-rate-the-scoreboard">1. 🎯 Task Success Rate (The Scoreboard)</h3>
+<p><strong>What it is:</strong> Run the agent on a set of tasks. Count how many it completes successfully. That percentage is your score.</p>
+<p><strong>How it works:</strong> You define what "success" means — did it find the right answer? Did it complete the booking? Did it write valid code? Then you run the agent 50 or 100 times and see what percentage of the time it gets it right.</p>
+<p><strong>Example:</strong> You're building a research agent that answers factual questions. You give it 100 questions with known correct answers. It answers correctly 78 times. Your task success rate = <strong>78%</strong>. You set a threshold: anything below 75% needs fixing before you ship.</p>
+<p><strong>Why it's useful:</strong> Simple, easy to explain to your manager, and gives you a clear regression signal — "last week it was 78%, now it's 65%, something broke."</p>
+<hr />
+<h3 id="2-trajectory-evaluation-the-journey-not-just-the-destination">2. 🕵️ Trajectory Evaluation (The Journey, Not Just the Destination)</h3>
+<p><strong>What it is:</strong> Instead of only checking the final answer, you inspect every step the agent took — which tools it called, in what order, with what inputs.</p>
+<p><strong>How it works:</strong> You record the agent's full "trajectory" (its chain of actions) and evaluate whether each step made sense. Did it call the right API? Did it search for relevant info before answering? Did it hallucinate a tool call that doesn't exist?</p>
+<p><strong>Example:</strong> Your coding agent is supposed to fix a bug. It succeeds — the bug is fixed! ✅ But wait... it also deleted 3 test files along the way, and called <code>rm -rf</code> on a directory it wasn't supposed to touch. The <em>outcome</em> looked right, but the <em>trajectory</em> was dangerous. Trajectory eval would catch this.</p>
+<p><strong>Why it's useful:</strong> The final answer can look correct even when the agent is doing the wrong things internally. Trajectory eval helps you catch risky or inefficient behavior before it causes real damage — especially important for agents with access to databases, file systems, or the internet.</p>
+<hr />
+<h3 id="3-llm-as-judge-using-ai-to-grade-ai">3. 🤖 LLM-as-Judge (Using AI to Grade AI)</h3>
+<p><strong>What it is:</strong> You use a separate, powerful LLM to evaluate the quality of the agent's output. The judge model reads the task, the agent's response, and gives a score or verdict.</p>
+<p><strong>How it works:</strong> You write a prompt like: <em>"Here is a customer support query and the agent's response. Rate the response on helpfulness, accuracy, and tone. Give a score from 1–5 with reasoning."</em> The judge model evaluates it and returns structured feedback.</p>
+<p><strong>Example:</strong> Your customer support agent responded to an angry customer. Was the response empathetic? Did it solve the problem? Did it follow company policy? A human would take 5 minutes per case. An LLM judge can do it in seconds, at scale, across 10,000 conversations. You spot that the agent is being too formal with upset customers and tune it accordingly.</p>
+<p><strong>Why it's useful:</strong> Perfect for open-ended tasks where there's no single right answer. Fast and scalable. The catch? Your judge model can also be wrong — so you still need human spot-checks to make sure the judge itself is calibrated correctly. (Yes, it's turtles all the way down. 🐢)</p>
+<hr />
+<h3 id="4-human-evaluation-the-gold-standard">4. 🧑‍⚖️ Human Evaluation (The Gold Standard)</h3>
+<p><strong>What it is:</strong> Real humans review the agent's outputs and rate them. Expensive. Slow. But the most reliable signal you have.</p>
+<p><strong>How it works:</strong> You recruit evaluators (internal team, contractors, or domain experts), give them clear rubrics, and have them rate a sample of agent outputs. You track inter-rater agreement to make sure your evaluators are consistent with each other.</p>
+<p><strong>Example:</strong> You're building a legal document drafting agent. You can't trust an LLM to judge whether a contract clause is legally sound. You need actual lawyers reviewing a sample of outputs and flagging issues. This is your ground truth.</p>
+<p><strong>Why it's useful:</strong> Some tasks are too high-stakes or too nuanced for automated judges. Medical advice, legal text, code for safety systems — these need human eyes. Also essential for <em>calibrating</em> your automated eval systems. Think of it as the IIT entrance exam of your eval pipeline — the final boss. 🎓</p>
+<hr />
+<h3 id="5-simulation-sandbox-environments-the-practice-ground">5. 🌐 Simulation / Sandbox Environments (The Practice Ground)</h3>
+<p><strong>What it is:</strong> You create a controlled, fake version of the real world — a sandboxed environment where the agent can act freely without causing real harm, and outcomes can be verified automatically.</p>
+<p><strong>How it works:</strong> Instead of letting your agent loose on the real internet or a real database, you give it a simulated environment. Fake websites, mock APIs, local databases. The agent acts, and you check whether those actions led to the right state changes.</p>
+<p><strong>Example:</strong> You're building a web browsing agent that books flights. You create a fake airline website that behaves like the real one. The agent "books" a flight, and you verify: did it choose the right date? the right destination? the cheapest option? All verifiable, all safe, zero risk of accidentally booking 47 flights to Bengaluru. ✈️</p>
+<p><strong>Why it's useful:</strong> Lets you test freely and aggressively without real-world consequences. You can run 1,000 test scenarios overnight. The challenge is making sure your simulation is realistic enough — if your fake environment is too different from the real world, your eval results won't transfer.</p>
+<hr />
+<h2 id="putting-it-all-together">Putting It All Together</h2>
+<p>No single approach is enough on its own. The best teams combine them:</p>
+<ul>
+<li><strong>Task success rate</strong> for quick, high-level health checks</li>
+<li><strong>Trajectory eval</strong> for catching dangerous or inefficient behavior</li>
+<li><strong>LLM-as-judge</strong> for scalable quality assessment at volume</li>
+<li><strong>Human eval</strong> for ground truth and high-stakes tasks</li>
+<li><strong>Simulations</strong> for safe, repeatable, automated testing at scale</li>
+</ul>
+<p>It's like how your favourite cricket team doesn't rely only on net practice, or only on watching match footage, or only on the coach's gut feeling. They use all of it. 🏏</p>
+<hr />
+<h2 id="the-bottom-line">The Bottom Line</h2>
+<p>Agent eval is what separates "I vibes-tested it and it seemed fine" from "I have data showing this works reliably at scale."</p>
+<p>As AI agents move from demos to production — handling real customer queries, writing real code, making real decisions — eval stops being optional. It becomes the thing that lets you ship with confidence, catch regressions, and sleep at night. 😴</p>
+<p>Build your agents. But also build your evals. Because without evals, you're basically deploying your intern and just... hoping for the best.</p>
+<p>We've all been there. Don't do it. 🙏</p>
+<hr />
+<p><em>PS - Have questions or want to share how you're doing agent eval at your company? Drop a comment below!</em></p>
 <hr />
 <blockquote>
 <p><strong>Want updates on new posts?</strong> Join my WhatsApp! 🎉 <strong><a href="https://chat.whatsapp.com/DleCJqi9JJ4A5i38O2vbUl?mode=gi_t">Group</a></strong> for discussions and ideas, or <strong><a href="https://whatsapp.com/channel/0029VbCa2R0EAKWCLAfPrz04">Channel</a></strong> for quiet updates. No spam, just cool content! 📢</p>
